@@ -1,5 +1,5 @@
-import imascg.starlightstage.calculator.SkillDuration;
-import imascg.starlightstage.calculator.SkillInvocationRate;
+import imascg.starlightstage.calculator.skill.SkillDuration;
+import imascg.starlightstage.calculator.skill.SkillInvocationRate;
 
 class Main {
 	static function main() {

@@ -1,4 +1,4 @@
-package imascg.starlightstage.calculator;
+package imascg.starlightstage.calculator.skill;
 
 class SkillDuration {
     var duration: Int;

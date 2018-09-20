@@ -1,4 +1,4 @@
-package imascg.starlightstage.calculator;
+package imascg.starlightstage.calculator.skill;
 
 class SkillInvocationRate {
     var rate: Int;

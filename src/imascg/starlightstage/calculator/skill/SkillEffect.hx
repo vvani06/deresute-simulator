@@ -1,4 +1,4 @@
-package imascg.starlightstage.calculator;
+package imascg.starlightstage.calculator.skill;
 
 enum SkillEffect {
     ScoreBonus(bonusRate: Int);
@@ -6,8 +6,8 @@ enum SkillEffect {
     LifeRecovery(lifeVolume: Int);
     LifeConsume(lifeVolume: Int);
     DamageGuard;
-    ComboSupport(rhythmIconJudgement: RhythmIconJudgement);
-    PerfectSupport;
+    ComboSupport(rhythmIconJudgements: Array<RhythmIconJudgement>);
+    PerfectSupport(rhythmIconJudgements: Array<RhythmIconJudgement>);
     SkillBoost;
     Concentration;
 }

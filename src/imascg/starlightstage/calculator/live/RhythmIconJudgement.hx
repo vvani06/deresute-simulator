@@ -1,4 +1,4 @@
-package imascg.starlightstage.calculator;
+package imascg.starlightstage.calculator.live;
 
 enum RhythmIconJudgement {
     Perfect;
