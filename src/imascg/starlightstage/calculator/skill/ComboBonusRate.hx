@@ -1,6 +1,6 @@
 package imascg.starlightstage.calculator.skill;
 
-class ScoreBonusRate {
+class ComboBonusRate {
     var rate: Int;
     public function new(rate) {
         this.rate = rate;
