@@ -7,7 +7,7 @@ class SkillTest extends buddy.BuddySuite {
         describe("スキルのシミュレーション", {
             it("てすと", {
                 trace(new Skill(
-                    new SkillName('4強コンボナ')
+                    new SkillName('4強SSRコンボナ')
                     , SkillEffect.ComboBonus(new ComboBonusRate(18))
                     , SkillDuration.Shortest
                     , SkillInvocationRate.High
