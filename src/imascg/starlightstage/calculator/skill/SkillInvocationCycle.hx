@@ -5,12 +5,12 @@ class SkillInvocationCycle {
     private function new(seconds) {
         this.seconds = seconds;
     }
-    public static var Seconds04 = new SkillInvocationCycle(04);
-    public static var Seconds05 = new SkillInvocationCycle(05);
-    public static var Seconds06 = new SkillInvocationCycle(06);
-    public static var Seconds07 = new SkillInvocationCycle(07);
-    public static var Seconds08 = new SkillInvocationCycle(08);
-    public static var Seconds09 = new SkillInvocationCycle(09);
+    public static var Seconds04 = new SkillInvocationCycle(4);
+    public static var Seconds05 = new SkillInvocationCycle(5);
+    public static var Seconds06 = new SkillInvocationCycle(6);
+    public static var Seconds07 = new SkillInvocationCycle(7);
+    public static var Seconds08 = new SkillInvocationCycle(8);
+    public static var Seconds09 = new SkillInvocationCycle(9);
     public static var Seconds10 = new SkillInvocationCycle(10);
     public static var Seconds11 = new SkillInvocationCycle(11);
     public static var Seconds12 = new SkillInvocationCycle(12);
