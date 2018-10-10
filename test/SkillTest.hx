@@ -5,14 +5,24 @@ import imascg.starlightstage.calculator.skill.*;
 class SkillTest extends buddy.BuddySuite {
     public function new() {
         describe("スキルのシミュレーション", {
-            it("てすと", {
-                trace(new Skill(
+            it("とりあえず色々なスキルのインスタンス作ってみる", {
+                new Skill(
                     new SkillName('4強SSRコンボナ')
-                    , SkillEffect.ComboBonus(new ComboBonusRate(18))
+                    , [ SSRSkillEffects.ComboBonus ]
                     , SkillDuration.Shortest
                     , SkillInvocationRate.High
                     , SkillInvocationCycle.Seconds04
-                ));
+                    , SkillRegulation.None
+                );
+
+                new Skill(
+                    new SkillName('6中フォーカス')
+                    , SSRSkillEffects.Focus
+                    , SkillDuration.Short
+                    , SkillInvocationRate.Middle
+                    , SkillInvocationCycle.Seconds06
+                    , SkillRegulation.UnitIsMonochrome(Cute)
+                );
             });
         });
     }

@@ -2,16 +2,18 @@ package imascg.starlightstage.calculator.skill;
 
 class Skill {
     private var name: SkillName;
-    private var effect: SkillEffect;
+    private var effects: Array<SkillEffect>;
     private var duration: SkillDuration;
     private var rate: SkillInvocationRate;
     private var cycle: SkillInvocationCycle;
+    private var regulation: SkillRegulation;
 
-    public function new(name, effect, duration, rate, cycle) {
+    public function new(name, effects, duration, rate, cycle, regulation) {
         this.name = name;
-        this.effect = effect;
+        this.effects = effects;
         this.duration = duration;
         this.rate = rate;
         this.cycle = cycle;
+        this.regulation = regulation;
     }
 }

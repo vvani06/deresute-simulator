@@ -4,7 +4,7 @@ import imascg.starlightstage.calculator.live.RhythmIconJudgement;
 import imascg.starlightstage.calculator.live.Life;
 
 enum SkillEffect {
-    ScoreBonus(rate: ScoreBonusRate);
+    ScoreBonus(rate: ScoreBonusRate, rhythmIconJudgements: Array<RhythmIconJudgement>);
     ComboBonus(rate: ComboBonusRate);
     LifeRecovery(lifeVolume: Life);
     LifeConsume(lifeVolume: Life);
