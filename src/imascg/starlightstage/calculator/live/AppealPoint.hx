@@ -9,7 +9,7 @@ class AppealPoint {
         this.dance = dance;
         this.visual = visual;
     }
-    public function asTotal(): Int {
+    public function total(): Int {
         return vocal + dance + visual;
     }
 }
