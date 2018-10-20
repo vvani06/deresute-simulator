@@ -1,0 +1,16 @@
+root = true
+
+[*]
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+indent_style = space
+tab_width = 2
+indent_size = 2
+
+[*.hx]
+block_comment_start = "/*"
+block_comment_end = "*/"
+
+[*.md]
+trim_trailing_whitespace = false
