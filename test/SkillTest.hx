@@ -15,8 +15,8 @@ class SkillTest extends buddy.BuddySuite {
                     , SkillInvocationCycle.Seconds04
                     , SkillRegulation.None
                 );
-				SSR4HighComboBonus.name.asText().should.be('4強SSRコンボナ');
-				SSR4HighComboBonus.effects.getEffectsBy(Normal)[0].should.equal(SkillEffect.ComboBonus(18));
+				        SSR4HighComboBonus.name.asText().should.be('4強SSRコンボナ');
+				        SSR4HighComboBonus.effects.getEffectsBy(Normal)[0].should.equal(SkillEffect.ComboBonus(18));
 
                 new Skill(
                     new SkillName('6中フォーカス')

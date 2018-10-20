@@ -7,7 +7,7 @@ class SkillEffects {
   }
   public function getEffectsBy(status: SkillEffectStatus): Array<SkillEffect> {
     return effects
-      .filter(function(effectItem) { return status == effectItem.status; } )
-      .map(function(effectItem) { return effectItem.effect; } );
+      .filter(effectItem -> status == effectItem.status )
+      .map(effectItem -> effectItem.effect);
   }
 }
