@@ -1,9 +1,9 @@
 package imascg.starlightstage.calculator.skill;
 
-import imascg.starlightstage.calculator.idol.IdolColor;
+import imascg.starlightstage.calculator.idol.CharacterType;
 
 enum SkillRegulation {
   None;
   UnitIsTricolor;
-  UnitIsMonochrome(color: IdolColor);
+  UnitIsMonochrome(characterType: CharacterType);
 }

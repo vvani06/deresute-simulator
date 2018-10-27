@@ -6,7 +6,7 @@ import imascg.starlightstage.calculator.skill.typical.*;
 class SkillTest extends buddy.BuddySuite {
     public function new() {
         describe("スキルのシミュレーション", {
-            it("とりあえず色々なスキルのインスタンス作ってみる", {
+            it("インスタンス作ってみる", {
                 var SSR4HighComboBonus = new Skill(
                     new SkillName('4強SSRコンボナ')
                     , SSRSkillEffects.ComboBonus
