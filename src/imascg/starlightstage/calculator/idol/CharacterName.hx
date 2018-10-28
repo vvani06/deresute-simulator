@@ -1,20 +1,16 @@
 package imascg.starlightstage.calculator.idol;
 
-abstract CharacterName(Array<String>) {
+abstract CharacterName(String) {
 
-  inline function new(names: Array<String>) {
-    this = names.copy();
+  inline function new(name) {
+    this = name;
   }
 
-  @:from static public function fromSingleName(name: String) {
-    return new CharacterName([name]);
+  @:from static public function fromName(name) {
+    return new CharacterName(name);
   }
 
-  @:from static public function fromNames(names: Array<String>) {
-    return new CharacterName(names);
-  }
-
-  public function fullName(): String {
-    return this.join(' ');
+  public function asText(): String {
+    return this;
   }
 }
